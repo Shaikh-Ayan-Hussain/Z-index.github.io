@@ -10,6 +10,177 @@ body{
    background-attachment: fixed;
     font-family: Arial, sans-serif;
 }
+.heading{
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Name{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 3em;
+    color:whitesmoke;
+    font-weight: bold;
+    background: transparent;
+}
+.Name:hover{
+    background:transparent;
+    background-image: linear-gradient(pink,rgb(128, 0, 128),rgba(0, 0, 255, 0.993));
+    color:transparent;
+    -webkit-background-clip: text;
+      box-shadow: 0px 10px 15px 5px black;
+      /* color:black; */
+    transition: background 0.3s ease;
+    border-radius: 10px;
+}
 .box{
-    di
+    width: 100%;
+    margin-top: 70px;
+    height: 900px;
+  /* border: 2px solid whitesmoke; */
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: auto; */
+}
+.card{
+    width: 25%;
+    height: 230px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 10%;
+}
+.card1{
+    width: 25%;
+    height: 230px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+}
+.card2{
+    width: 25%;
+    height: 230px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+    font-size: 22px;
+}
+.card3{
+    width: 25%;
+    height: 230px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+   bottom: 3%;
+   left: 23%;
+   z-index: 999;
+   display: flex;
+   justify-content: center;
+
+}
+.card4{
+    width: 25%;
+    height: 230px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 3%;
+  right: 22%;
+   z-index: 999;
+   display: flex;
+   justify-content: center;
+   
+}
+.head{
+    font-size: 2.5em;
+    position: relative;
+    bottom: -30%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+  
+}
+.essay{
+    font-size: 0.7em;
+    color: blue;
+    /* margin-top: 20px; */
+    line-height: 1.7;
+    text-align: justify;
+   
+}
+.my{
+    background-image: linear-gradient(rgb(253, 3, 3),rgb(255, 8, 8),rgba(0, 0, 255, 0.445));
+    color:transparent;
+    -webkit-background-clip: text;
+
+}
+.perfect{
+    margin-top: 6px;
+    font-size: 34px;
+    margin-left: 5px;
+    font-family:'Times New Roman', Times, serif;
+    background-image: linear-gradient(rgb(253, 3, 3),rgba(128, 0, 128, 0.678),rgb(0, 0, 255),blue);
+    color:transparent;
+    -webkit-background-clip: text;
+}
+.college{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 28px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 62px; */
+    font-family:'Times New Roman', Times, serif;
+    /* margin-bottom: 40px; */
+}
+.fa-pen-nib{
+margin-bottom: 28px;
+    font-size: 28px;
+    color: blue;
+}
+.jasper{
+    margin-top: 75px;
+    font-size: 48px;
+    margin-left: -80px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(pink,rgb(128, 0, 128),rgba(0, 0, 255, 0.993),blue,purple);
+    color:transparent;
+    -webkit-background-clip: text;
+}
+.ai{
+    margin-top: 90px;
+    font-size: 35px;
+    margin-left: -95px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(purple,blue,black);
+    color:transparent;
+    -webkit-background-clip: text;
+
 }
