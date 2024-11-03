@@ -37,7 +37,7 @@ body{
 .box{
     width: 100%;
     margin-top: 70px;
-    height: 900px;
+    height: 458px;
   /* border: 2px solid whitesmoke; */
     padding: 10px 0px;
     display: flex;
@@ -45,6 +45,7 @@ body{
     justify-content: center;
     /* margin: auto; */
 }
+
 .card{
     width: 25%;
     height: 230px;
@@ -179,7 +180,7 @@ margin-bottom: 28px;
     font-size: 35px;
     margin-left: -95px;
     font-family:Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(purple,blue,black);
+    background-image: linear-gradient(rgba(128, 0, 128, 0.966),rgba(0, 0, 255, 0.89));
     color:transparent;
     -webkit-background-clip: text;
 
